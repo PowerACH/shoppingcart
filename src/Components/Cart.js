@@ -92,9 +92,9 @@ export default class Cart extends Component {
                         <img src={item3.image} alt='item'></img>
                         <div className = "itemName">{item3.name}</div>
                         <div>
-                        <button onClick={()=>{this.DecreaseItem(1)}}  >-</button>
+                        <button onClick={()=>{this.DecreaseItem(2)}}  >-</button>
                         <span> {item3.quantity} </span>
-                        <button onClick={()=> {this.IncrementItem(1)}} >+</button>
+                        <button onClick={()=> {this.IncrementItem(2)}} >+</button>
                         </div>
                         <div className = "itemPrice">{item3.price * item3.quantity}</div>
                     </div>
